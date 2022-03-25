@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Template</title>
+	<title>Partners.io</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,28 @@
 	<meta name="theme-color" content="#fff">
 	<link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon">
 	<link rel="icon" href="img/favicons/favicon.png" type="image/x-icon">
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="196x196" href="img/favicons/favicon-196x196.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="img/favicons/favicon-128x128.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+	<meta name="msapplication-square70x70logo" content="img/favicons/ms-icon-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="img/favicons/ms-icon-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="img/favicons/ms-icon-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="img/favicons/ms-icon-310x310.png" />
+	
 	<link rel="preconnect" href="css/fonts/AvertaCY.css" crossorigin />
 	<link rel="preload" as="style" href="css/fonts/AvertaCY.css" />
 	<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="css/fonts/AvertaCY.css" />
@@ -45,9 +67,9 @@
 									<li><a href="partner.html">Slots.io</a></li>
 								</ul>
 							</li>
-							<li><a href="">News</a></li>
-							<li><a href="">FAQ</a></li>
-							<li><a href="">Contact us</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="#faq" class="js-scroll-to">FAQ</a></li>
+							<li><a href="#contacts" class="js-scroll-to">Contact us</a></li>
 						</ul>
 					</div>
 					<div class="lang">
@@ -190,23 +212,23 @@
 											<div class="partners-box__progress-tip" data-step="step-3">30%</div>
 											<div class="partners-box__progress-line"></div>
 											<div class="partners-box__progress-bar">
-												<div class="partners-box__progress-step active" data-step="step-1">
+												<div class="partners-box__progress-step" data-step="step-1" data-percent="25%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>1-5</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step active" data-step="step-2">
+												<div class="partners-box__progress-step" data-step="step-2" data-percent="30%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>6-15</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step active current" data-step="step-3">
+												<div class="partners-box__progress-step" data-step="step-3" data-percent="35%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>16-30</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step" data-step="step-4">
+												<div class="partners-box__progress-step" data-step="step-4" data-percent="40%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>31-50</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step" data-step="step-5">
+												<div class="partners-box__progress-step" data-step="step-5" data-percent="45%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>51+</b> FTDs</div>
 												</div>
@@ -249,14 +271,15 @@
 											<div class="partners-box__progress-tip" data-step="step-1">25%</div>
 											<div class="partners-box__progress-line"></div>
 											<div class="partners-box__progress-bar">
-												<div class="partners-box__progress-step active current" data-step="step-1">
+												<div class="partners-box__progress-step" data-step="step-1" data-percent="25%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>1-15</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step" data-step="step-2">
+												<div class="partners-box__progress-step" data-step="step-2" data-percent="30%">
 													<div class="partners-box__progress-point"></div>
+													<div class="partners-box__progress-title"><b>16-40</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step" data-step="step-3">
+												<div class="partners-box__progress-step" data-step="step-3" data-percent="35%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>41+</b> FTDs</div>
 												</div>
@@ -296,26 +319,26 @@
 											</div>
 										</div>
 										<div class="partners-box__progress">
-											<div class="partners-box__progress-tip" data-step="step-3">35%</div>
+											<div class="partners-box__progress-tip" data-step="step-4">35%</div>
 											<div class="partners-box__progress-line"></div>
 											<div class="partners-box__progress-bar">
-												<div class="partners-box__progress-step active" data-step="step-1">
+												<div class="partners-box__progress-step" data-step="step-1" data-percent="25%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>1-5</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step active" data-step="step-2">
+												<div class="partners-box__progress-step" data-step="step-2" data-percent="30%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>6-15</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step active current" data-step="step-3">
+												<div class="partners-box__progress-step" data-step="step-3" data-percent="35%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>16-30</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step" data-step="step-4">
+												<div class="partners-box__progress-step" data-step="step-4" data-percent="40%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>31-50</b> FTDs</div>
 												</div>
-												<div class="partners-box__progress-step" data-step="step-5">
+												<div class="partners-box__progress-step" data-step="step-5" data-percent="45%">
 													<div class="partners-box__progress-point"></div>
 													<div class="partners-box__progress-title"><b>51+</b> FTDs</div>
 												</div>
@@ -551,8 +574,8 @@
 				</div>
 			</div>
 		</section>
-		<div class="section-group bg-gray" data-aos="fade-up">
-			<section class="section faq">
+		<div class="section-group bg-gray" data-aos="fade">
+			<section id="faq" class="section faq">
 				<div class="container">
 					<div class="faq-inner">
 						<div class="title text-center" data-aos="fade-up" data-aos-delay="300">
@@ -705,7 +728,7 @@
 				</div>
 			</section>
 		</div>
-		<section class="section contacts">
+		<section id="contacts" class="section contacts">
 			<div class="container">
 				<div class="contacts-inner">
 					<div class="title" data-aos="fade-up" data-aos-delay="300">
@@ -790,9 +813,9 @@
 									<li><a href="partner.html">Slots.io</a></li>
 								</ul>
 							</li>
-							<li><a href="">News</a></li>
-							<li><a href="">FAQ</a></li>
-							<li><a href="">Contact us</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="#faq" class="js-scroll-to">FAQ</a></li>
+							<li><a href="#contacts" class="js-scroll-to">Contact us</a></li>
 						</ul>
 					</div>
 					<div class="footer-award">

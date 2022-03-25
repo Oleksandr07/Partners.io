@@ -8,20 +8,17 @@
       <change beforePath="$PROJECT_DIR$/css/fonts/svgfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/svgfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-about.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-home.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-mobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicons/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/first-card-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/first-card-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner-img-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-img-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner-img-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-img-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner-img-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-img-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partner-img-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-img-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/advantage-bg-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/advantage-bg-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/advantages-icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/advantages-icon-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/advantages-icon-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/advantages-icon-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/advantages-icon-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/advantages-icon-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/advantages-icon-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/advantages-icon-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/advantages-icon-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/advantages-icon-6.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/libs.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/libs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/libs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/libs.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/partner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +54,7 @@
       <workItem from="1647867510378" duration="675000" />
       <workItem from="1648039086688" duration="209000" />
       <workItem from="1648051686230" duration="21000" />
+      <workItem from="1648125883347" duration="28000" />
     </task>
     <servers />
   </component>
