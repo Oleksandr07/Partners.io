@@ -9,7 +9,11 @@
       <change beforePath="$PROJECT_DIR$/css/fonts/svgfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/svgfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/icons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/partner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +53,7 @@
       <workItem from="1648212348279" duration="493000" />
       <workItem from="1648454908119" duration="22000" />
       <workItem from="1648460165955" duration="24000" />
+      <workItem from="1648557735866" duration="122000" />
     </task>
     <servers />
   </component>
