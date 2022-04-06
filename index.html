@@ -68,8 +68,8 @@
 								</ul>
 							</li>
 							<li><a href="news.html">News</a></li>
-							<li><a href="#faq" class="js-scroll-to">FAQ</a></li>
-							<li><a href="#contacts" class="js-scroll-to">Contact us</a></li>
+							<li><a href="/#faq" class="js-scroll-to">FAQ</a></li>
+							<li><a href="/#contacts" class="js-scroll-to">Contact us</a></li>
 						</ul>
 					</div>
 					<div class="lang">
@@ -152,11 +152,92 @@
 								</div>
 							</div>
 							<div class="first-card__box-chart">
-								<picture>
-									<source srcset="img/first-chart.jpg" media="(min-width: 768px)">
-									<source srcset="img/first-chart-mobile.jpg">
-									<img src="img/first-chart-mobile.jpg" alt="">
-								</picture>
+<!--								<picture>-->
+<!--									<source srcset="img/first-chart.jpg" media="(min-width: 768px)">-->
+<!--									<source srcset="img/first-chart-mobile.jpg">-->
+<!--									<img src="img/first-chart-mobile.jpg" alt="">-->
+<!--								</picture>-->
+								<canvas id="chart"></canvas>
+								<script>
+									window.onload = function () {
+										const ctx = document.getElementById('chart').getContext('2d');
+										// ctx.height = 180;
+										const dataFirst = {
+											label: '',
+											data: [14, 12, 14, 15, 13],
+											fill: false,
+											borderColor: '#5597FF',
+											borderWidth: 2,
+											pointRadius: 0
+										}
+										const dataSecond = {
+											label: '',
+											data: [12, 14, 12, 13, 11],
+											fill: false,
+											borderColor: '#7FE8A9',
+											borderWidth: 2,
+											pointRadius: 0
+										}
+										const dataThird = {
+											label: '',
+											data: [3, 8, 7, 9, 6],
+											fill: false,
+											borderColor: '#A88BFF',
+											borderWidth: 2,
+											pointRadius: 0
+										}
+										const dataFourth = {
+											label: '',
+											data: [5, 6, 5, 7, 8],
+											fill: false,
+											borderColor: '#8A67F433',
+											borderWidth: 2,
+											borderDash: [10,5],
+											pointRadius: 0
+										}
+										const speedData = {
+											labels: ['16 Sept', '18 Sept', '20 Sept', '22 Sept', '24 Sept'],
+											datasets: [dataFirst, dataSecond, dataThird, dataFourth],
+											borderWidth: 5,
+											radius: 0,
+										}
+										let chart = new Chart(ctx, {
+											type: 'line',
+											data: speedData,
+											options: {
+												responsive: true,
+												maintainAspectRatio: false,
+												plugins: {
+													legend: {
+														display: false
+													}
+												},
+												scales: {
+													x: {
+														grid: {
+															color: 'rgba(215, 221, 227, 0.45)',
+															tickColor: 'rgba(215, 221, 227, 0.45)',
+															borderColor: 'transparent'
+														},
+														ticks: {
+															color: 'rgba(35, 37, 49, 0.26)',
+														}
+													},
+													y: {
+														grid: {
+															color: 'rgba(215, 221, 227, 0.45)',
+															tickColor: 'transparent',
+															borderColor: 'transparent'
+														},
+														ticks: {
+															display: false
+														}
+													}
+												},
+											}
+										});
+									}
+								</script>
 							</div>
 							<div class="first-card__box-button">
 								<a href="javascript:void(0);" class="btn btn-blue js-first-card-modal"><span>Sign Up</span></a>
@@ -221,7 +302,7 @@
 											</div>
 										</div>
 										<div class="partners-box__progress">
-											<div class="partners-box__progress-tip" data-step="step-3">30%</div>
+											<div class="partners-box__progress-tip" data-step="step-3">35%</div>
 											<div class="partners-box__progress-line"></div>
 											<div class="partners-box__progress-bar">
 												<div class="partners-box__progress-step" data-step="step-1" data-percent="25%">
@@ -250,16 +331,6 @@
 											<a href="" class="btn btn-blue"><span>Become a Partner</span></a>
 											<a href="" class="btn btn-border">
 												<span>More about Bitcasino.io</span>
-												<svg class="semicircle-left" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
-													<circle class="arc-shadow" cx="28" cy="28" r="27" fill="none"></circle>
-													<circle class="arc-line" cx="28" cy="28" r="27" fill="none"></circle>
-												</svg>
-												
-												<svg class="semicircle-right" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
-													<circle class="arc-shadow" cx="28" cy="28" r="27" fill="none"></circle>
-													<circle class="arc-line" cx="28" cy="28" r="27" fill="none"></circle>
-												</svg>
-												
 											</a>
 										</div>
 									</div>
@@ -301,16 +372,6 @@
 											<a href="" class="btn btn-blue"><span>Become a Partner</span></a>
 											<a href="" class="btn btn-border">
 												<span>More about Sportsbet.io</span>
-												<svg class="semicircle-left" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
-													<circle class="arc-shadow" cx="28" cy="28" r="27" fill="none"></circle>
-													<circle class="arc-line" cx="28" cy="28" r="27" fill="none"></circle>
-												</svg>
-												
-												<svg class="semicircle-right" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
-													<circle class="arc-shadow" cx="28" cy="28" r="27" fill="none"></circle>
-													<circle class="arc-line" cx="28" cy="28" r="27" fill="none"></circle>
-												</svg>
-												
 											</a>
 										</div>
 									</div>
@@ -360,16 +421,6 @@
 											<a href="" class="btn btn-blue"><span>Become a Partner</span></a>
 											<a href="" class="btn btn-border">
 												<span>More about Slots.io</span>
-												<svg class="semicircle-left" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
-													<circle class="arc-shadow" cx="28" cy="28" r="27" fill="none"></circle>
-													<circle class="arc-line" cx="28" cy="28" r="27" fill="none"></circle>
-												</svg>
-												
-												<svg class="semicircle-right" viewBox="0 0 56 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
-													<circle class="arc-shadow" cx="28" cy="28" r="27" fill="none"></circle>
-													<circle class="arc-line" cx="28" cy="28" r="27" fill="none"></circle>
-												</svg>
-												
 											</a>
 										</div>
 									</div>
@@ -812,7 +863,7 @@
 								<div class="form-checkbox">
 									<div class="checkbox">
 										<input type="checkbox" id="privacy">
-										<label for="privacy">I have read and agree to the Terms of Service and Privacy Policy</label>
+										<label for="privacy">I have read and agree to the Terms of Service and <a href="privacy-policy.html">Privacy Policy</a></label>
 									</div>
 								</div>
 								<div class="form-button">
@@ -878,6 +929,7 @@
 </div>
 <!-- END wrapper-->
 <script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.0/chart.min.js"></script>
 <script src="js/libs.js"></script>
 <script src="js/app.js"></script>
 
