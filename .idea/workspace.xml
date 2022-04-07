@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10ea221e-fe42-467a-b4a8-0230aef6014b" name="Changes" comment="" />
+    <list default="true" id="10ea221e-fe42-467a-b4a8-0230aef6014b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/bg-modal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/i-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partner-icon-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partner-icon-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advantages.html" beforeDir="false" afterPath="$PROJECT_DIR$/advantages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/svgfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/svgfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/svgfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/svgfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/svgfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/svgfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/award-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-advantages.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-home-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +71,8 @@
       <workItem from="1648746217631" duration="132000" />
       <workItem from="1648814261512" duration="800000" />
       <workItem from="1649231172609" duration="390000" />
+      <workItem from="1649335278243" duration="705000" />
+      <workItem from="1649353438462" duration="345000" />
     </task>
     <servers />
   </component>
