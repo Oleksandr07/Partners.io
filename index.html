@@ -175,92 +175,97 @@
 								<canvas id="chart"></canvas>
 								<script>
 									window.onload = function () {
-										const ctx = document.getElementById('chart').getContext('2d');
-										// ctx.height = 180;
-										const dataFirst = {
-											label: '',
-											data: [14, 12, 14, 15, 13],
-											fill: false,
-											borderColor: '#5597FF',
-											borderWidth: 2,
-											pointRadius: 0
-										}
-										const dataSecond = {
-											label: '',
-											data: [12, 14, 12, 13, 11],
-											fill: false,
-											borderColor: '#7FE8A9',
-											borderWidth: 2,
-											pointRadius: 0
-										}
-										const dataThird = {
-											label: '',
-											data: [3, 8, 7, 9, 6],
-											fill: false,
-											borderColor: '#A88BFF',
-											borderWidth: 2,
-											pointRadius: 0
-										}
-										const dataFourth = {
-											label: '',
-											data: [5, 6, 5, 7, 8],
-											fill: false,
-											borderColor: '#8A67F433',
-											borderWidth: 2,
-											borderDash: [10,5],
-											pointRadius: 0
-										}
-										const speedData = {
-											labels: ['16 Sept', '18 Sept', '20 Sept', '22 Sept', '24 Sept'],
-											datasets: [dataFirst, dataSecond, dataThird, dataFourth],
-											borderWidth: 5,
-											radius: 0,
-										}
-										let chart = new Chart(ctx, {
-											type: 'line',
-											data: speedData,
-											options: {
-												responsive: true,
-												maintainAspectRatio: false,
-												plugins: {
-													legend: {
-														display: false
-													}
-												},
-												scales: {
-													x: {
-														grid: {
-															color: 'rgba(215, 221, 227, 0.45)',
-															tickColor: 'rgba(215, 221, 227, 0.45)',
-															borderColor: 'transparent'
-														},
-														ticks: {
-															color: 'rgba(35, 37, 49, 0.26)',
-														}
-													},
-													y: {
-														grid: {
-															color: 'rgba(215, 221, 227, 0.45)',
-															tickColor: 'transparent',
-															borderColor: 'transparent'
-														},
-														ticks: {
+										function renderChart() {
+											const ctx = document.getElementById('chart').getContext('2d');
+											// ctx.height = 180;
+											const dataFirst = {
+												label: '',
+												data: [14, 12, 14, 15, 13],
+												fill: false,
+												borderColor: '#5597FF',
+												borderWidth: 2,
+												pointRadius: 0
+											}
+											const dataSecond = {
+												label: '',
+												data: [12, 14, 12, 13, 11],
+												fill: false,
+												borderColor: '#7FE8A9',
+												borderWidth: 2,
+												pointRadius: 0
+											}
+											const dataThird = {
+												label: '',
+												data: [3, 8, 7, 9, 6],
+												fill: false,
+												borderColor: '#A88BFF',
+												borderWidth: 2,
+												pointRadius: 0
+											}
+											const dataFourth = {
+												label: '',
+												data: [5, 6, 5, 7, 8],
+												fill: false,
+												borderColor: '#8A67F433',
+												borderWidth: 2,
+												borderDash: [10,5],
+												pointRadius: 0
+											}
+											const speedData = {
+												labels: ['16 Sept', '18 Sept', '20 Sept', '22 Sept', '24 Sept'],
+												datasets: [dataFirst, dataSecond, dataThird, dataFourth],
+												borderWidth: 5,
+												radius: 0,
+											}
+											let chart = new Chart(ctx, {
+												type: 'line',
+												data: speedData,
+												options: {
+													responsive: true,
+													maintainAspectRatio: false,
+													plugins: {
+														legend: {
 															display: false
 														}
-													}
-												},
-											}
-										});
+													},
+													scales: {
+														x: {
+															grid: {
+																color: 'rgba(215, 221, 227, 0.45)',
+																tickColor: 'rgba(215, 221, 227, 0.45)',
+																borderColor: 'transparent'
+															},
+															ticks: {
+																color: 'rgba(35, 37, 49, 0.26)',
+															}
+														},
+														y: {
+															grid: {
+																color: 'rgba(215, 221, 227, 0.45)',
+																tickColor: 'transparent',
+																borderColor: 'transparent'
+															},
+															ticks: {
+																display: false
+															}
+														}
+													},
+												}
+											});
+										}
+										setTimeout( function() {
+											renderChart();
+										}, 1200 );
 									}
 								</script>
 							</div>
 							<div class="first-card__box-button">
-								<a href="javascript:void(0);" class="btn btn-blue js-first-card-modal"><span>Sign Up</span></a>
-								<div class="first-card__box-modal">
-									<a href="" class="btn btn-blue btn-md"><span>Bitcasino.io</span></a>
-									<a href="" class="btn btn-blue btn-md"><span>Sportsbet.io</span></a>
-									<a href="" class="btn btn-blue btn-md"><span>Slots.io</span></a>
-								</div>
+								<a href="#modal-partners" class="btn btn-blue js-modal"><span>Sign Up</span></a>
+<!--								<div class="first-card__box-modal">-->
+<!--									<a href="" class="btn btn-blue btn-md"><span>Bitcasino.io</span></a>-->
+<!--									<a href="" class="btn btn-blue btn-md"><span>Sportsbet.io</span></a>-->
+<!--									<a href="" class="btn btn-blue btn-md"><span>Slots.io</span></a>-->
+<!--								</div>-->
 							</div>
 						</div>
 					</div>
